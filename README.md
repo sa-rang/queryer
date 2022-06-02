@@ -1,7 +1,5 @@
-# Queryer | [Demo]
+# Queryer | VueJs | [Demo]
 ### Query the data from multipledata source with Predefined or custom queries
-
-
 
 ##### Predefined Query list for each data source
 
@@ -28,10 +26,19 @@ Seclect a data source (Orders or Products), by default you have few predefined q
 | Orders | unitPrice=41 |
 | Products | categoryID=6 |
 | Products | productName=Chai |
-## Note
+## Notes
 
-Im assuming it to be a reatime data query app, so every query mimics api call to server(loads static json file here).
-if no query selected it shows all entries from selected source.
+- Im assuming it to be a reatime data query app, so every query mimics api call to server(loads static json file here).
+- if no query selected it shows all entries from selected source.
+- External Plugin used: Axios(to mimic api call), ElementUI(Vue js UI framework) 
 
+## Performance (Lighthouse)
+| METRICS | Result |
+| ------ | ------ |
+| First Contentful Paint | 0.7 s |
+| Time to Interactive | 0.7 s |
+| Speed Index | 0.8 s |
+| Total Blocking Time | 0 s|
+| Largest Contentful Paint | 0.7 s |
 
 [demo]: <https://imsarang.com/queryer/>
